@@ -1,0 +1,135 @@
+
+body{
+    background-color: black;
+}
+
+.h1{
+    text-align: center;
+    transition: width 13s, height 14s, background-color 2s, transform 2s;
+    transform: scale(1.1);
+    color: red;
+    box-shadow: 0px 0px 5px rgb(232, 235, 104);
+}
+.h1:hover {
+    transform:translate(0);
+}
+.h2{
+    text-align: center;
+  color: yellow;  
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-flow: wrap;
+    
+}
+
+
+.card1{
+     background-color: peru;
+     width: calc(76%/3);
+    margin: 2%;
+    padding: 2%;
+    text-align: center;
+    transition: 0.3s;
+    font-family:cursive;
+    
+}
+
+   
+.card2{
+     background-color: green;
+     width: calc(76%/3);
+    margin: 2%;
+    padding: 2%;
+    text-align: center;
+    transition: 0.3s;
+    font-family: cursive;
+    
+}
+.card3{
+    background-color:orangered;
+    width: calc(76%/3);
+   margin: 2%;
+   padding: 2%;
+   text-align: center;
+   transition: 0.5s;
+   font-family: cursive;
+   
+}
+.card4{
+    background-color:rgb(89, 89, 201);
+    width: calc(76%/3);
+   margin: 2%;
+   padding: 2%;
+   text-align: center;
+   transition: 0.3s;
+   font-family: cursive;
+   
+}
+.card5{
+    background-color: red;
+    width: calc(76%/3);
+   margin: 2%;
+   padding: 2%;
+   text-align: center;
+   transition: 0.3s;
+   font-family: cursive;
+   
+}
+.card6{
+    background-color:violet;
+    width: calc(76%/3);
+   margin: 2%;
+   padding: 2%;
+   text-align: center;
+   transition: 0.3s;
+   font-family: cursive;
+   
+}
+
+
+
+
+
+.card1:hover{
+    transform:scale(1.1);
+} 
+.card2:hover{
+    transform:scale(1.1);
+} 
+.card3:hover{
+    transform:scale(1.1);
+} 
+.card4:hover{
+    transform:scale(1.1);
+} 
+.card5:hover{
+    transform:scale(1.1);
+} 
+.card6:hover{
+    transform:scale(1.1);
+} 
+
+
+
+
+
+.card__name{
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: rosybrown;
+}
+
+.card__name span {
+    font-size: 15px;
+}
+
+.card__total {
+    font-size: 200%;
+    font-weight: bold;
+
+}
